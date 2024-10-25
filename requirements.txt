@@ -1,0 +1,5 @@
+pygithub
+readline
+glob
+threading
+getpass
