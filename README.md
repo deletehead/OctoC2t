@@ -18,7 +18,7 @@ P.S. - If you actually wanna tweak this and use it yourself in an engagement, I 
 ## Installation
 - Download & install dependencies
 ```sh
-git clone https://github.com/deletehead/OctoC2t
+git clone https://github.com/deletehead/OctoC2t && cd OctoC2t
 pip3 install -r requirements.txt
 ```
 - Run it!
