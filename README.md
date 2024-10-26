@@ -21,6 +21,7 @@ P.S. - If you actually wanna tweak this and use it yourself in an engagement, I 
 git clone https://github.com/deletehead/OctoC2t && cd OctoC2t
 pip3 install -r requirements.txt
 ```
+- Update `util/constants.py` with your PAT, username, etc.
 - Run it!
 ```sh
 python3 octoc2t.py
